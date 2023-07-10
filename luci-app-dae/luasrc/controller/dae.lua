@@ -17,7 +17,7 @@ end
 
 function act_status()
 	local e = {}
-	e.running = sys.call("pgrep -f /usr/bin/dae >/dev/null") == 0
+	e.running = sys.call("pgrep -x /usr/bin/dae >/dev/null") == 0
 	http.prepare_content("application/json")
 	http.write_json(e)
 end
