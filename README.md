@@ -72,6 +72,10 @@ apt-get install -y clang-13
 ### 4. Build luci-app-dae
 
 ```bash
-make menuconfig # choose LUCI -> Applications -> luci-app-daed
-make package/dae/luci-app-dae/compile V=s # build luci-app-daed
+make menuconfig # choose LUCI -> Applications -> luci-app-dae
+make package/dae/luci-app-dae/compile V=s # build luci-app-dae
 ```
+
+-----------
+
+![dae](https://github.com/sbwml/luci-app-dae/assets/16485166/df81cd85-2957-4bc7-bb57-c561766d7e67)
