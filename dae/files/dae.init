@@ -20,6 +20,7 @@ start_service() {
 	"$PROG" validate -c "$config_file" || return 1
 
 	procd_open_instance "$CONF"
+	procd_set_param env QUIC_GO_ENABLE_GSO=true
 	procd_set_param command "$PROG"
 	procd_append_param command run -c "$config_file"
 
