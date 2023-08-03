@@ -58,7 +58,7 @@ apt-get install -y clang-13
   $(eval $(call KernelPackage,xdp-sockets-diag))
   ```
 
-- Patch cgroupfs-mount: use cgroupfs2
+- Patch cgroupfs-mount: use cgroupfs2 (Required when docker is compiled.)
   ```bash
   # fix unmount hierarchical mount
   pushd feeds/packages
