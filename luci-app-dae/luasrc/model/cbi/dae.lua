@@ -20,7 +20,7 @@ o.write = function()
 end
 
 -- cbid
-o = s:option(TextValue, "daeconf")
+o = s:option(TextValue, "daeconf", translate("Configuration Editor"))
 o.rows = 25
 o.rmempty = true
 o.wrap = "off"

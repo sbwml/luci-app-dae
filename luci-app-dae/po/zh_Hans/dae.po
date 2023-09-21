@@ -21,3 +21,6 @@ msgstr "重载服务"
 
 msgid "Reload the service effective configuration file."
 msgstr "重载服务生效配置文件。"
+
+msgid "Configuration Editor"
+msgstr "配置编辑器"
